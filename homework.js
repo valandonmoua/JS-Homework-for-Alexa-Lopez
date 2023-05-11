@@ -1,4 +1,4 @@
-//Names, Species type, and  of Alice in Wonderland Characters
+//Names, Species type, of Alice in Wonderland Characters and if they have a tea cup and tea plate
 let guests = [
     { 
         firstName: 'Alice',
