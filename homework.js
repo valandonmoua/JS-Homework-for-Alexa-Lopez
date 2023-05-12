@@ -36,7 +36,8 @@ let guests = [
 
     {   firstName: 'Dormouse',
         lastName: 'Mouse',
-        species: 'Mouse' },
+        species: 'Mouse' 
+    },
 
     {   firstName: 'Caterpillar',
         lastName: 'Bug',
@@ -45,7 +46,8 @@ let guests = [
 
     {   firstName: 'Frog',
         lastName: 'Footman',
-        species: 'Frog' },
+        species: 'Frog' 
+    },
 
     {   firstName: 'King',
         lastName: 'of Hearts',
