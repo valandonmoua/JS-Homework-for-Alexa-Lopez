@@ -55,7 +55,7 @@ let guests = [
     }
 ];
   
-  const teaPartyTable = {};
+  let teaPartyTable = {};
   
   for (let i = 0; i < guests.length; i++) {
     let guest = guests[i];
@@ -74,7 +74,7 @@ let guests = [
     teaPartyTable[guest.firstName] = teaGuest;
   }
 
-  for (const guest in teaPartyTable) {
+  for (let guest in teaPartyTable) {
     console.log(`First Name: ${teaPartyTable[guest].firstName}`);
     console.log(`Last Name: ${teaPartyTable[guest].lastName}`);
     console.log(`Species: ${teaPartyTable[guest].species}`);
